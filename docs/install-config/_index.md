@@ -24,10 +24,6 @@ The standard Harbor installation process involves the following stages:
 
 If installation fails, see [Troubleshooting Harbor Installation](troubleshoot-installation.md).
 
-## Quick Installation
-
-You can run a script that deploys Harbor to Ubuntu 18.04 with a single command. For information, see [Deploy Harbor with the Quick Installation Script](quick-install-script.md).
-
 ## Deploy Harbor on Kubernetes
 
 You can also use Helm to install Harbor on a Kubernetes cluster, to make Harbor highly available. For information about installing Harbor with Helm on a Kubernetes cluster, see [Deploying Harbor with High Availability via Helm](harbor-ha-helm.md).
@@ -55,4 +51,3 @@ The table below lists the some of the key components that are deployed when you 
 |Docker/notary|0.6.1|
 |Helm|2.9.1|
 |Swagger-ui|3.22.1|
-
